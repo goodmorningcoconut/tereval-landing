@@ -15,6 +15,13 @@ header {
     position: relative;
 }
 
+header .mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+}
+
 header h1 {
     position: absolute;
     margin-left: 50%;
@@ -186,6 +193,15 @@ header .band {
     width: 100%;
 }
 
+.references .imagegrid > div {
+    height: 125px;
+    width: 125px;
+    margin: 15px;
+    display: inline-block;
+    background-size: contain;
+    border-radius: 4px;
+}
+
 @media screen and (min-width: 1051px) {
     .references .imagegrid {
         max-width: 960px;
@@ -212,110 +228,50 @@ header .band {
 
 #image1 {
     background-image: url('images/references/ADEME.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image2 {
     background-image: url('images/references/ARPE.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image3 {
     background-image: url('images/references/SCOT-SudToulousain.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image4 {
     background-image: url('images/references/SCOT-Martinique.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image5 {
     background-image: url('images/references/RegionBretagne.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image6 {
     background-image: url('images/references/CAP-Martinique.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image7 {
     background-image: url('images/references/PaysStBrieuc.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image8 {
     background-image: url('images/references/PaysRennes.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image9 {
     background-image: url('images/references/PaysFougeres.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image10 {
     background-image: url('images/references/EspaceSud.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image11 {
     background-image: url('images/references/DREAL-Bretagne.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 #image12 {
     background-image: url('images/references/CAP-Atlantique.jpg');
-    height: 125px;
-    width: 125px;
-    margin: 15px;
-    display: inline-block;
-    background-size: contain;
 }
 
 /* arguments */
@@ -377,6 +333,7 @@ footer {
     color: #fff;
     font-size: 15px;
     position: relative;
+    min-height: 80px;
 }
 
 footer a, a:hover {
