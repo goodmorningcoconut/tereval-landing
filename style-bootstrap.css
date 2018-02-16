@@ -1,0 +1,401 @@
+/* global styling */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+/* header */
+
+header {
+	background-color: rgba(0,0,0,0.4);
+	background-image: url(images/image-header.jpg);
+	background-size: cover;
+	min-height: 550px;
+	position: relative;
+}
+
+header h1 {
+	position: absolute;
+	margin-left: 50%;
+	transform: translateX(-100px);
+}
+
+@media screen and (min-width: 980px) {
+	header a {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		color: #fff;
+		font-size: 15px;
+		text-decoration: none;
+		background-color: #448aff;
+		border-radius: 5px;
+		padding: 10px 20px;
+	}
+
+	header a:hover {
+		text-decoration: none;
+	}
+}
+
+@media screen and (max-width: 979px) {
+	header a {
+		display: none;
+	}
+}
+
+.band h2 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.band h2:first-line {
+	font-weight: 700;
+}
+
+@media screen and (min-width: 640px) {
+	.band h2 {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 639px) {
+	.band h2 {
+		font-size: 18px;
+		margin: 0 30px;
+	}
+}
+
+/* approach */
+
+.approach {
+	margin: 50px auto;
+	max-width: 1000px;
+}
+
+.approach h2 {
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.approach .col-md-12 img {
+	padding-bottom: 30px;
+}
+
+.approach .col-md-12 h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.approach .col-md-12 p {
+	font-size: 15px;
+	color: #232c3a;
+}
+
+.approach .col-md-12 {
+	background-color: #448aff;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 991px) {
+	.approach .col-md-12 {
+		height: 280px;
+		max-width: 280px;
+		padding: 30px;
+		margin: 15px auto;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.approach .col-md-12 {
+		width: 100%;
+		padding: 30px;
+		margin: 15px 15px;
+	}
+}
+
+/* show */
+
+.show {
+	background-color: #00bfa5;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.show h2 {
+	font-size: 32px;
+	color: #fff;
+}
+
+.show .carousel {
+	margin: 50px auto;
+	max-width: 900px;
+}
+
+.show a {
+	margin-top: 50px;
+	background-color: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.show a:hover {
+	color: #000;
+}
+
+/* references */
+
+.references {
+	background-color: #232c3a;
+	padding: 50px;
+}
+
+.references h2 {
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.references .imagegrid {
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 1051px) {
+	.references .imagegrid {
+		width: 960px;
+	}
+}
+
+@media screen and (min-width: 751px) and (max-width: 1050px) {
+	.references .imagegrid {
+		width: 640px;
+	}
+}
+
+@media screen and (min-width: 641px) and (max-width: 750px) {
+	.references .imagegrid {
+		width: 480px;
+	}
+}
+
+@media screen and (min-width: 421px) and (max-width: 640px) {
+	.references .imagegrid {
+		width: 320px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.references .imagegrid {
+		width: 160px;
+	}
+}
+
+#image1 {
+	background-image: url('images/references/ADEME.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image2 {
+	background-image: url('images/references/ARPE.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image3 {
+	background-image: url('images/references/SCOT-SudToulousain.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image4 {
+	background-image: url('images/references/SCOT-Martinique.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image5 {
+	background-image: url('images/references/RegionBretagne.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image6 {
+	background-image: url('images/references/CAP-Martinique.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image7 {
+	background-image: url('images/references/PaysStBrieuc.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image8 {
+	background-image: url('images/references/PaysRennes.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image9 {
+	background-image: url('images/references/PaysFougeres.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image10 {
+	background-image: url('images/references/EspaceSud.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image11 {
+	background-image: url('images/references/DREAL-Bretagne.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+#image12 {
+	background-image: url('images/references/CAP-Atlantique.jpg');
+	height: 125px;
+	width: 125px;
+	margin: 15px;
+	display: inline-block;
+	background-size: contain;
+}
+
+/* arguments */
+
+.arguments p {
+	font-size: 24px;
+	text-align: center;
+	padding: 15px;
+}
+
+.arguments .left {
+	padding: 35px;
+}
+
+.arguments .right {
+	background-image: url('images/background2.jpg');
+	background-size: cover;
+	text-align: center;
+}
+
+.arguments .right img {
+	margin: 30px auto;
+}
+
+/* cta */
+
+.cta {
+	background-color: #448aff;
+	padding: 50px;
+	text-align: center;
+}
+
+.cta h2 {
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.cta a {
+	background-color: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.cta a:hover {
+	color: #000;
+}
+
+/* footer */
+
+footer {
+	background-color: #232c3a;
+	padding: 30px;
+	color: #fff;
+	font-size: 15px;
+	position: relative;
+}
+
+footer a, a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 400px) {
+	footer .links {
+		position: absolute;
+		left: 50px;
+	}
+
+	footer .credits {
+		position: absolute;
+		right: 30px;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	footer .links {
+		text-align: center;
+	}
+
+	footer .credits {
+		text-align: center;
+	}
+}
+
